@@ -1,0 +1,667 @@
+@media screen and (min-width: 768px){
+    // リセットCSS
+        html, body, div, span, applet, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    a, button, abbr, acronym, address, big, cite, code,
+    del, dfn, em, img, ins, kbd, q, s, samp,
+    small, strike, strong, sub, sup, tt, var,
+    b, u, i, center,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, embed,
+    figure, figcaption, footer, header, hgroup,
+    menu, nav, output, ruby, section, summary,
+    time, mark, audio, video {
+    border: 0;
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    }
+
+    html {
+    line-height: 1;
+    }
+
+    ol, ul {
+    list-style: none;
+    }
+
+    li, dd {
+    list-style-type: none;
+    }
+
+    table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    }
+
+    caption, th, td {
+    font-weight: normal;
+    text-align: left;
+    vertical-align: middle;
+    }
+
+    q, blockquote {
+    quotes: none;
+    }
+
+    q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none;
+    }
+
+    article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+    display: block;
+    }
+
+    img {
+    border: none;
+    vertical-align: bottom;
+    }
+    // リセットCSS
+
+    body {
+        width: 1366px;
+        max-width: 100%;
+        // margin: 0 auto;
+        height: 7829px;
+        background-color: #F3F3F3;
+        color: #3e3e3e;
+        font-family: "游ゴシック", YuGothic, "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, "Droid Sans", sans-serif;
+    }
+
+    header {
+        width: 1366px;
+        max-width: 100%;
+        height: 648px;
+        background-image: url(/img/mv.png);
+        background-size: cover;
+        nav {
+            width: 100%;
+            height: 80px;
+            line-height: 80px;
+            background-color: #FFFFFF1A;
+            ul {
+                display: flex;
+                justify-content: center;
+                li {
+                    height: 50px;
+                    font-size: 16px;
+                    margin-right: 40px;
+                    cursor: pointer;
+                    a {
+                        color: #3E3E3E;
+                        text-decoration: none;
+                        font-family:  "Montserrat", sans-serif;
+                        letter-spacing: -0.065px;
+                        font-weight: normal;
+                        opacity: 1;
+                    }
+                }
+                li:hover {
+                    border-bottom: 1px solid #3E3E3E;
+                }
+            }
+        }
+        .mainvisual {
+            margin-top: 138px;
+            position: relative;
+            .mainvisual-inner {
+                position: absolute;
+                left: 53.66%;
+            }
+            h2 {
+                font-family: "游ゴシック";
+                font-size: 30px;
+                font-weight: 500;
+                letter-spacing: 0.15px;
+                color: #3E3E3E;
+                line-height: 1.5;
+            }
+            p {
+                font-size: 18px;
+                font-family: "游ゴシック";
+                font-weight: 100;
+                letter-spacing: 0.6px;
+                color: #3E3E3E;
+                margin-top: 35px;
+                margin-right: 109px;
+                line-height: 1.5;
+            }
+            a {
+                font-family: "游ゴシック";
+                font-size: 18px;
+                font-weight: 530;
+                letter-spacing: 0.45px;
+                color: #FFFFFF;
+                background-color: #FFAA3B;
+                border-radius: 10px;
+                font-size: 18px;
+                margin-top: 36px;
+                padding: 16px 48px;
+                display: inline-block;
+                text-decoration: none;
+                box-shadow: 0 3px 5px rgba(62, 62, 62, 0.2);
+            }
+            a:hover {
+                background-color: #ee8a08;
+            }
+        }
+    }
+    .news-section {
+        max-width: 1080px;
+        background-color: #FFFFFF;
+        margin: 130px auto 0;
+        padding: 62px 50px 40px 50.33px;
+        box-shadow: 0px 5px 12px rgba(62, 62, 62, 0.2);
+        h1 {
+            font-size: 36px;
+            color: #3E3E3E;
+            font-family: Montserrat;
+            line-height: 1.15;
+            letter-spacing: 0;
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .news-contents {
+            background-color: #fff;
+            border-top: 1px solid #CECDCD;
+            margin: 0 auto;
+            max-width: 1180px;
+            .news-heading {
+                padding: 40px 0px 38px;
+                border-bottom: 1px solid #CECDCD;
+                padding-left: 9.67px;
+                padding-right: 5px;
+                margin-bottom: 1px;
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+            }
+            .news-heading:hover {
+                transition: 0.4s;
+                background-color: rgba(205, 245, 247,1);
+            }
+            .date {
+                margin-right: 60px;
+                font-size: 18px;
+                line-height: 1.55;
+                font-family: Montserrat;
+                letter-spacing: 0.46px;
+                color: #3E3E3E;     
+                white-space: nowrap;
+            }
+            .label {
+                a {
+                font-size: 14px;
+                line-height: 1.95;
+                font-family: "游ゴシック";
+                letter-spacing: 0.35px;
+                border: 2px solid #3B69FF;
+                background-color: #FFF;
+                border-radius: 50px;
+                padding: 5px 32px;
+                margin-right: 60px;
+                color:#3E3E3E;
+                text-decoration: none;
+                white-space: nowrap;
+                }
+            }
+            .text {
+                width: 697px;
+                font-size: 18px;
+                letter-spacing: 0.45px;
+                line-height: 1.55;
+                padding-right: 30px;
+            }
+            .more {
+                text-align: center;
+                .more-btn {
+                    line-height: 1.1;
+                    display: inline-block;
+                    font-size: 20px;
+                    font-weight: 500;
+                    letter-spacing: 2.5px;
+                    color: #3E3E3E;  
+                    font-family: "Montserrat";
+                    border: 1px solid #707070;
+                    padding: 20px 86px;
+                    margin-top: 40px;
+                    text-decoration: none;
+                }
+                .more-btn:hover {
+                    transition: 0.4s;
+                    line-height: 1.1;
+                    display: inline-block;
+                    font-size: 20px;
+                    font-weight: 500;
+                    letter-spacing: 2.5px;
+                    color: #FFFFFF; 
+                    background-color: #3E3E3E; 
+                    font-family: "Montserrat";
+                    border: 1px solid #707070;
+                    padding: 20px 86px;
+                    margin-top: 40px;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .service {
+        background: linear-gradient(to bottom, #3e3e3e 0, #3e3e3e 400px, transparent 400px, transparent 100%);;
+        margin-top: 130px;
+        padding-top: 80px;
+        text-align: center;
+        h2 {
+            color: #FFF;
+            font-size: 36px;
+            font-weight: bold;
+            line-height: 1.2;
+            letter-spacing: 0;
+            font-weight: "Montserrat";
+            margin-bottom: 80px;
+        }
+        dl {
+            display: flex;
+        }
+    }
+    .service-list {
+        background-color: #FFF;
+        margin: 0 auto;
+        width: 960px;
+        max-width: 90%;
+        padding: 53px 0px;
+    }
+    .service-item dt {
+        background-position: top center;
+        padding-top: 70px;
+        font-size: 20px;
+        font-family: "Montserrat";
+        letter-spacing: 4px;
+        color: #3E3E3E;
+        margin-bottom: 15px;
+        line-height: 1.5;
+    }
+    .service-item {
+        padding: 0px 48px;
+        text-align: center;
+    }
+    .service-item:nth-child(1) dt {
+        background-image: url(/img/service1.svg);
+        background-repeat: no-repeat;
+    }
+    .service-item:nth-child(2) dt {
+        background-image: url(/img/service2.svg);
+        background-repeat: no-repeat;
+    }
+    .service-item:nth-child(3) dt {
+        background-image: url(/img/service3.svg);
+        background-repeat: no-repeat;
+    }
+    .service-item dd {
+        font-family: "游ゴシック";
+        font-size: 14px;
+        letter-spacing: 0.01px;
+        color: #3E3E3E;
+        line-height: 1.7;
+        text-align: left;
+    }
+
+    .result {
+        background: rgba(62, 62, 62, 1);
+        padding: 80px 0 80px 110px;
+        margin-top: 132px;
+        margin-left: 93px;
+        // max-width: calc(50vw + 590px);
+        a {
+            text-decoration: none;
+        }
+        h2 {
+            color: #FFF;
+            font-size: 36px;
+            line-height: 1.2;
+            font-family: "Montserrat";
+            margin-bottom: 80px;
+        }
+
+        .swiper-slide {
+            background: #FFF;
+        }
+        .swiper-slide:hover {
+            opacity: 0.8;
+        }
+        .result-img img{
+            width: 100%;
+        }
+        
+        .result-item-inner {
+            padding: 18px 20px 21px 20px;
+            .resulut-item-ttl {
+                color: rgba(62, 62, 62, 1);
+                font-size: 20px;
+                font-family: "游ゴシック";
+                line-height: 1.5;
+                letter-spacing: 0.01px;
+                margin-bottom: 19px;
+            }
+            .result-item-txt {
+                font-size: 16px;
+                color: rgba(62, 62, 62, 1);
+                font-family: "游ゴシック";
+                line-height: 1.25;
+                letter-spacing: 0.08px;
+                margin-bottom: 6px;
+            }
+        }
+        .results-pagination .swiper-pagination-bullet {
+            background: #fff;
+            height: 12px;
+            width: 11.5px;
+            margin: 52px 14px 10px 6px !important;
+            opacity: 1;
+            position: relative;
+        }
+        .swiper-pagination {
+            position: static !important;
+            text-align: left;
+        }
+        .results-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active:after {
+            border: solid 1px #fff;
+            border-radius: 50%;
+            content: '';
+            display: block;
+            height: 20px;
+            width: 20px;
+            left: 50%;
+            position: absolute;
+            top: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
+        .link-box {
+            display: inline-block;
+            color: #FFF;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: "Montserrat";
+            letter-spacing: 4px;
+            line-height: 1.1;
+            border: 1px solid #FFFFFF;
+            padding: 20px 84px;
+            margin-top: 39px;
+        }
+        .link-box:hover {
+            transition: 0.4s;
+            display: inline-block;
+            color: rgba(62, 62, 62, 1);
+            background-color: #FFF;
+            font-size: 20px;
+            font-weight: bold;
+            font-family: "Montserrat";
+            letter-spacing: 4px;
+            line-height: 1.1;
+            border: 1px solid #FFFFFF;
+            padding: 20px 83.5px;
+            margin-top: 38px;
+        }
+    }
+    .price {
+        margin-top: 80px;
+        .price-container {
+                width: 70.4%;
+                margin: 0 auto;
+            h2 {
+                text-align: center;
+                font-size: 36px;
+                font-family: "Montserrat";
+                font-weight: bolder;
+                color: #3E3E3E;
+                line-height: 1.2;
+                letter-spacing: 0;
+                margin-bottom: 80.5px;
+            }
+            .price-table {
+                border: 1px solid #707070;
+                border-collapse: collapse;
+                width: 100%;
+                tr {
+                    line-height: 0.9;
+                }
+                th {
+                    text-align: center;
+                    color: #fff;
+                    background-color: #3E3E3E;
+                    padding: 20.5px 0;
+                    font-size: 22px;
+                    letter-spacing: 2px;
+                    font-family: "Montserrat";
+                    font-weight: bold;
+                    width: 30%;
+                    border-bottom: 1px solid #FFFFFF;
+                }
+                td {
+                    font-size: 22px;
+                    font-family: "Montserrat";
+                    letter-spacing: 1.3px;
+                    color: rgba(62, 62, 62, 1);
+                    background-color: #fff;
+                    padding-left: 40px;
+                    font-weight: bolder;
+                    border-bottom: 1px solid #707070;
+                }
+            }
+            .price-txt {
+                color: rgba(62, 62, 62, 1);
+                font-size: 12px;
+                font-family: "游ゴシック";
+                line-height: 1.6;
+                margin-top: 23px;
+                letter-spacing: 0;
+            }
+        }
+    }
+    // bg-wrapper
+    .bg-wrapper {
+        position: relative;
+    
+    }
+    .bg-wrapper:before {
+        background: #3e3e3e;
+        bottom: 0;
+        content: '';
+        display: block;
+        left: 0;
+        position: absolute;
+        top: 149px;
+        width: 71.8%;
+      }
+    // bg-wrapper
+    
+    .comments {
+        position: relative;
+        z-index: 1;
+        .comments-container {
+            width: 1180px;
+            max-width: 100%;
+            margin: 129px auto 0 ;
+            display: flex;
+            padding-bottom: 130px;
+            .comments-inner {
+                background-color: #FFFFFF;
+                padding: 80px 50px 56px 40px;
+                width: 47%;
+                .comments-ttl {
+                    font-size: 36px;
+                    font-family: "Montserrat";
+                    line-height: 1.2;
+                    letter-spacing: 0;
+                    color: rgba(62, 62, 62, 1);
+                    margin-bottom: 80px;
+                }
+                
+                .comments-item {
+                    padding-left: 150px;
+                    margin-bottom: 70px;
+                }
+                .comments-item:nth-child(1) {
+                    background: url(/img/comments1.png) no-repeat;
+                   
+                }
+                .comments-item:nth-child(2) {
+                    background: url(/img/comments2.png) no-repeat;
+                   
+                }
+                .comments-txt {
+                    font-size: 16px;
+                    font-family: "游ゴシック";
+                    letter-spacing: 0;
+                    line-height: 1.7;
+                    color: rgba(62, 62, 62, 1);
+                    width: 100%;
+                    letter-spacing: 0.2px;
+                }
+            }
+        }
+        .comments-img {
+           margin-top: 124.5px;
+        }
+        .comments-img > img{
+            width: 100%;
+            height: auto;
+        }
+    }
+    .faq {
+        background-image: url(/img/sunyu-kim-1053375-unsplash.png);
+        background-size: cover;
+        background-position: top center;
+        position: relative;
+        padding: 80px 80px 40px 80px;
+        z-index: 1;
+
+        .faq-container {
+            max-width: 100%;
+            margin-right: 50px;
+        }
+        .faq-inner {
+            position: relative;
+            left: 26%;
+            margin: 0 auto;
+            width: 633px;
+            max-width: 100%;
+            }
+        h2 {
+            color: #FFFFFF;
+            // text-align: center;
+            font-size: 36px;
+            color: rgba(62, 62, 62, 1);
+            font-family: "Montserrat";
+            font-weight: 500;
+            letter-spacing: 0;
+            line-height: 1.2;
+            margin-bottom: 80px;
+        }
+        .half {
+           margin-right: 20px;
+        }
+          /* Acordeon styles */
+          .tab {
+            width: 100%;
+            position: relative;
+            margin-bottom: 1px;
+            background-color: #fff;/* アコーディオン タブ文字色 */
+            text-align: left;
+            max-width: 100%;
+            border-radius: 7px;
+            line-height: 1.2;
+          }
+          input {
+            position: absolute;
+            opacity: 0;
+          }
+          label {
+            color: rgba(62, 62, 62, 1); 
+            letter-spacing: 0.4;
+            position: relative;
+            display: block;
+            font-weight: bold;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            p {
+                line-height: 1.7;
+                padding: 18px 18px 18px 14px;
+            }
+          }
+          
+          .tab-content {
+            width: 100%;
+            max-height: 0;
+            overflow: hidden;
+            background: rgba(255, 255, 255, 1);/* タブ内背景色 */
+            -webkit-transition: max-height .35s;
+            -o-transition: max-height .35s;
+            transition: max-height .35s;
+            margin-bottom: 40px;
+            border-radius: 0 0 7px 7px;
+          }
+          
+          .tab-content p {
+            color: rgba(62, 62, 62, 1);
+            font-size: 16px;
+            font-family: "游ゴシック";
+            line-height: 1.5;
+            letter-spacing: 0;
+            margin: 0 18px 19px 16px;
+            color: #000;/* タブ内文字色 */
+            background-color: rgba(59, 105, 255, 0.2);
+            padding:16px 14px 16px 14px;
+            border-radius: 7px;
+          }
+          /* :checked */
+          input:checked ~ .tab-content {
+            max-height: 10em;
+          }
+          /* Icon */
+          label::before {
+            content: "Q";
+            background-color: rgba(59, 105, 255, 1);
+            color: #fff;
+            display: inline-block;
+            width: 26px;
+            line-height: 26px;
+            margin-left: 18px;
+            border-radius: 50%;
+            text-align: center;
+          }
+          label::after {
+            padding-right: 18px;
+            text-align: right;
+            -webkit-transition: all .5s;
+            -o-transition: all .5s;
+            transition: all .5s;
+          }
+          input[type=checkbox] + label::after {
+            content: "＋";
+            color: rgb(55, 99, 243);
+            display: block;
+            text-align: right;
+            position: absolute;
+            right: 0; 
+          }
+          
+          input[type=checkbox]:checked + label::after {
+            content: "ー";
+          }
+    }
+    .access {
+        position: relative;
+        color: yellow;
+        .access-container {
+            margin-top: 130px;
+            display: flex;
+        }
+    }
+}
